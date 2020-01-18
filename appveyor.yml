@@ -2,7 +2,7 @@ image: Visual Studio 2019
 configuration: Release
 
 install:
- - SET MAVEN_OPTS="-Xms512m -Xmx1024m"
+ #- SET MAVEN_OPTS="-Xms512m -Xmx1024m"
 
 build_script:
  - mvn clean install
